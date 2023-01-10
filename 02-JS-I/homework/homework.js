@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lenght === str2.lenght;
+ return str1.lenght === str2.lenght;
 }
 
 function menosQueNoventa(num) {
@@ -96,15 +96,20 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  return x % y;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  if( nume 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+  }
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
